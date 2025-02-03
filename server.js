@@ -7,7 +7,8 @@ import { Liquid } from 'liquidjs';
 
 
 // Vul hier jouw eigen ID in (zie de instructies in de leertaak)
-const personID = 234
+const personID = 190
+
 
 // Doe een fetch naar een URL op de WHOIS API, ga pas verder als de fetch gelukt is
 const personResponse = await fetch('https://fdnd.directus.app/items/person/' + personID)
@@ -67,3 +68,4 @@ app.listen(app.get('port'), function () {
   // Toon een bericht in de console en geef het poortnummer door
   console.log(`Application started on http://localhost:${app.get('port')}`)
 })
+

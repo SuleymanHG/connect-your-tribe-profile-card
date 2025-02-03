@@ -1,14 +1,48 @@
 {% render 'partials/head.liquid' %}
 
 <article>
-  <header>
-    <h1>Hallo</h1>
-    <p>mijn naam is</p>
-  </header>
+<header>
+      <img src="assets/linkedin-foto.jpg" alt="linkedin-foto">
+    </header>
+    
 
-  <p>{{ person.name }}</p>
+    <div>
+      <h1>{{ person.name }}</h1>
+      <h2>FDND student 2024/2025</h2>
+      <p> Ik ben een eerstejaars FDND-student 
+        en super enthousiast om alles over 
+        frontend te leren.
+      </p>
 
-  <footer></footer>
+    </div>
+
+    <div class="info">
+      <p>
+        E-mail: suleyman.gokgul66@outlook.com
+        Telefoon: +31 6 123 45 678
+      </p>
+    </div>
+    
+      <a href="https://www.linkedin.com/feed/" class="hoverbutton" >
+        LinkedIN
+      </a>
+
+      <a href="https://www.instagram.com/" class="hoverbutton">
+        Instagram
+      </a>
+
+      <a href="https://github.com/SuleymanHG/Visitekaart-FDND/" class="hoverbutton">
+        Github
+      </a>
+
+      <a href="https://www.facebook.com/?locale=nl_NL" class="hoverbutton">
+        Facebook
+      </a>
+
+      <div class="info">
+        <img src="assets/frame.png" alt="qrcode" class="qrcodegit">
+      </div>
 </article>
 
 {% render 'partials/foot.liquid' %}
+
